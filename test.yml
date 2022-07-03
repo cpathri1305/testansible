@@ -1,0 +1,6 @@
+- name: testing git proj
+  hosts: host01
+  tasks:
+    - name: testing
+      ansible.builtin.debug:
+        msg: testing from git...{{FromProj}}
