@@ -1,5 +1,6 @@
 - name: testing git proj
   hosts: host01
+  gather_facts: no
   tasks:
     - name: testing
       ansible.builtin.debug:
